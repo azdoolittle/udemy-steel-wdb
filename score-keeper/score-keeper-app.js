@@ -38,7 +38,7 @@ var resetFunc = function() {
     p1display.textContent = p1score;
     p2display.textContent = p2score; 
     p1display.classList.remove("winner");
-    p2display.classList.remove("winner");    
+    p2display.classList.remove("winner");
     gameOver = false;
 }
 
